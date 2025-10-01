@@ -1,0 +1,22 @@
+header {
+    background-color: gray;
+    margin: 25px;
+    padding: 25px;
+    font-size: 25px;
+}
+main {
+    background-color: blue;
+}
+li {
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: darkgray;
+    border: 2px solid black;
+}
+li:hover {
+    background-color: lightgray;
+}
+ul {
+    display: flex;
+}
