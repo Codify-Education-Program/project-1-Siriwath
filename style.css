@@ -71,31 +71,21 @@ a.dark-theme {
     text-decoration: underline;
     padding: 10px;
 }
-/* Make the container a flex container */
 .container {
     display: flex;
-    justify-content: space-between; /* left and right edges */
-    align-items: flex-start; /* align top edges */
-    gap: 20px; /* optional spacing between left and right */
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 20px; 
 }
 
-/* Left content takes all remaining space */
 .left {
-    flex: 1; /* this grows to fill remaining space */
+    flex: 1; 
 }
-
-
 .right img {
-    max-width: 200px; /* adjust as needed */
+    max-width: 200px; 
     height: auto;
     object-fit: cover;
 }
-
-/* Optional: style the header and nav */
-.flexbox h1 {
-    margin: 0 0 10px 0;
-}
-
 .flexbox nav ul {
     list-style: none;
     padding: 0;
