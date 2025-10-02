@@ -53,3 +53,55 @@ body.dark-theme {
 a.dark-theme {
     color:white;
 }
+#tempo a.dark-theme{
+    color:white
+}
+#projectList {
+    display:flex;
+}
+#projectList li{
+    list-style-type: none;
+}
+#projectList a {
+    color: blue;
+    text-decoration: underline;
+}
+#tempo  {
+    color:blue;
+    text-decoration: underline;
+    padding: 10px;
+}
+/* Make the container a flex container */
+.container {
+    display: flex;
+    justify-content: space-between; /* left and right edges */
+    align-items: flex-start; /* align top edges */
+    gap: 20px; /* optional spacing between left and right */
+}
+
+/* Left content takes all remaining space */
+.left {
+    flex: 1; /* this grows to fill remaining space */
+}
+
+
+.right img {
+    max-width: 200px; /* adjust as needed */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Optional: style the header and nav */
+.flexbox h1 {
+    margin: 0 0 10px 0;
+}
+
+.flexbox nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+.right {
+    flex: 0 0
+}

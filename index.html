@@ -11,23 +11,33 @@
 <body id="page-body">
     <header>
         <section id="home">
-            <h1>Siriwath Edwards</h1>
-            <button id="bttn" class="bttn">Dark Mode</button>
-            <nav>
-                <ul id="navList">
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="music">Music Taste?</a></li>
-                    <li><a href="contact">Contact Me!</a></li>
-                </ul>
-            </nav> 
+            <div class="container">
+                <div class="left">
+                    <div class="flexbox">
+                        <h1>Siriwath Edwards</h1>
+                        <button id="bttn" class="bttn">Dark Mode</button>
+                        <nav>
+                            <ul id="navList">
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#music">Music Taste?</a></li>
+                                <li><a href="#contact">Contact Me!</a></li>
+                            </ul>
+                        </nav> 
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="/me.jpg" alt="skill issue not my fault you cant see this your missing out">
+                </div>
+            </div>
         </section>
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
             <p id="aboutP">I am Siriwath Edwards, undergraduate at UC Berkeley. I am pursuing a degree in computer science and planning on specializing in Machine Learning/AI.
-                I love learning about new and obsure things, and am espescially passionate about military history.
+                I love learning about new and obsure things, and am espescially passionate about military history. Some of my interesting accomplishments 
+                include the fact that I was valadictorian of my highs school, I was a cycling/life mentor, and I tutored elementaries on code.org.
             </p>
             <h3>Goals:</h2>
             <ul>
@@ -37,6 +47,10 @@
             
         </section>
         <section id="projects">
+            <h2>My Projects</h2>
+            <ul id="projectList">
+                <li><a href="#home">Personal website</a></li>
+            </ul>
 
         </section>
         <section id="music">
@@ -45,7 +59,7 @@
     </main>
     <footer>
         <section id="contact">
-            <a href="mailto:siriwathofficial@gmail.com">siriwathofficial@gmail.com</a>
+            <p>Contact Me: <a id="tempo" href="mailto:siriwathofficial@gmail.com">siriwathofficial@gmail.com</a></p>
         </section>
         <nav id="bottomNav"><a id="awesome" href="#home">Back To Top</a></nav>
 
