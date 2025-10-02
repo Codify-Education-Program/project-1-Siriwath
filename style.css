@@ -46,3 +46,10 @@ header {
 body {
     font-family: 'Exo 2', sans-serif;
 }
+body.dark-theme {
+    background-color: black;
+    color: white;
+}   
+a.dark-theme {
+    color:white;
+}
